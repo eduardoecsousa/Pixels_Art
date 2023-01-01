@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+}
+
+.color {
+  border: solid 1px black;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 1px;
+  border-radius: 100%;
+}
+
+#color-palette {
+  display: inline-block;
+}
+
+#button-random-color {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  bottom: 15px;
+  margin-left: 6px;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  border: solid 1px black;
+}
+
+.line {
+  display: flex;
+}
+
+#pixel-board {
+  border: solid 1px black;
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2%;
+}
+
+#clear-board {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.painel {
+  display: flex;
+  position: relative;
+}

@@ -2,6 +2,10 @@ body {
   text-align: center;
 }
 
+.black {
+  background-color: black;
+}
+
 .color {
   border: solid 1px black;
   width: 40px;
